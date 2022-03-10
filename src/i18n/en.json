@@ -1,0 +1,390 @@
+{
+  "aside": {
+    "collapse": {
+      "collapseBtnText": "fold",
+      "desc": "Used to collapse and expand the aside",
+      "expandBtnText": "Expand",
+      "title": "Aside button"
+    },
+    "menu": {
+      "charge": "Charge",
+      "department": "Department",
+      "drug": "Drug",
+      "feedback": "Feedback",
+      "home": "Home",
+      "income": "Income",
+      "notice": "Notice",
+      "outpatient": "Outpatient",
+      "record": "Record",
+      "user": "User"
+    },
+    "message": {
+      "noAuth": "No auth, please contact the admin if you still need to access"
+    }
+  },
+  "driver": {
+    "closeBtnText": "Close",
+    "doneBtnText": "Done",
+    "nextBtnText": "Next",
+    "prevBtnText": "Previous"
+  },
+  "form": {
+    "banChinese": "Password can't include Chinese",
+    "cancel": "Cancel",
+    "checkEmail": "Please input the correct email address",
+    "checkGender": "Gender must be male or female",
+    "checkName": "Please input your name",
+    "checkPhone": "Please input your phone num in mainland China",
+    "checkRoleId": "Please select a role",
+    "checkUsername": "Please input your username",
+    "donotMatch": "Two inputs don't match",
+    "message": {
+      "actionFailed": "Parameters don't match, action failed",
+      "cancelButtonText": "Cancel",
+      "changePwdFailed": "Password update failed",
+      "changePwdSuccess": "Password update successful, please login again",
+      "changeUserStateFailed": "Change User State Failed",
+      "changeUserStateSuccess": "Change user state successful",
+      "confirmButtonText": "Confirm",
+      "confirmText": "All filled form contents may be lost, sure you want to exit?",
+      "deleteConfirmText": "Are you sure you want to delete it?",
+      "deleteFailed": "Delete failed",
+      "deleteSuccess": "Delete successful",
+      "insertFailed": "Insert failed",
+      "insertSuccess": "Insert successful",
+      "updateFailed": "Update failed",
+      "updateSuccess": "Update successful",
+      "updateUserDetailFailed": "User detail update failed",
+      "updateUserDetailSuccess": "User detail update successful"
+    },
+    "nameLengthLimit": "Length should be 0 to 10",
+    "pwdLengthLimit": "Length should be 6 to 10",
+    "reset": "Reset",
+    "submit": "Submit",
+    "submitFailed": "Submit failed",
+    "usernameHasUsed": "This username has been used",
+    "usernameLengthLimit": "Length should be 1 to 10",
+    "validateCheckPass": "Please enter the password again",
+    "validatePass": "Please enter the password"
+  },
+  "header": {
+    "fullscreen": {
+      "backIndex": "Back index",
+      "desc": "From left to right, return to home, exit full screen and full screen mode",
+      "exitFullscreenMode": "Exit full screen",
+      "fullscreenMode": "Full screen mode",
+      "title": "Full screen button"
+    },
+    "guide": {
+      "desc": "This is a short guided tutorial, please click on the next",
+      "title": "Guide Button"
+    },
+    "logo": {
+      "title": "Dental Admin"
+    },
+    "routes": {
+      "back": "Back",
+      "desc": "Similar to the route buttons in a browser, you can make the page back and forward",
+      "forward": "Forward",
+      "title": "Route button"
+    },
+    "userAvatar": {
+      "changePwd": "Change password",
+      "logout": "Logout",
+      "role": "Role",
+      "userDetail": "User detail"
+    }
+  },
+  "login": {
+    "checkPwd": "Confirm",
+    "goRegister": "Click here to register",
+    "message": {
+      "failed": "Login failed",
+      "success": "Login successful"
+    },
+    "pwd": "Password",
+    "title": "Login",
+    "username": "Username"
+  },
+  "main": {
+    "changePwd": {
+      "banChinese": "Password can't include Chinese",
+      "checkPwd": "Confirm",
+      "checkPwdPlaceholder": "Please enter the updated password again",
+      "donotMatch": "Two inputs don't match",
+      "nowPwd": "Current password",
+      "nowPwdPlaceholder": "Please enter your current password",
+      "pwd": "Updated password",
+      "pwdLengthLimit": "Length should be 6 to 10",
+      "pwdPlaceholder": "Please enter the updated password",
+      "submitUpdate": "Confirm",
+      "validateCheckPass": "Please enter the password again",
+      "validatePass": "Please enter the password"
+    },
+    "charge": {
+      "amount": "Amount/￥",
+      "amountIsNum": "The amount must be a num",
+      "amountSizeLimit": "The amount can't be greater than 100 million",
+      "amountSizeSmallerZero": "The amount can't be smaller than 0",
+      "charge_detail": {
+        "item": "Item",
+        "price": "Price",
+        "quantity": "Num"
+      },
+      "checkAmount": "Please input the amount",
+      "checkDate": "Please input the date",
+      "checkName": "Please input the payer",
+      "checkProject": "Please input the Project",
+      "checkSignature": "Please input payee",
+      "date": "Date",
+      "datePlaceholder": "Pick a Date",
+      "drawerTitle": "Charge Detail",
+      "insertCharge": "Insert Charge",
+      "name": "Payer",
+      "nameLengthLimit": "Length should be 1 to 10",
+      "project": "Project",
+      "projectLengthLimit": "Length should be 1 to 20",
+      "signature": "Payee",
+      "signatureLengthLimit": "Length should be 1 to 10",
+      "updateCharge": "Update Charge"
+    },
+    "department": {
+      "checkDirector": "Please input the name of the department director",
+      "checkName": "Please input the department name",
+      "director": "Director",
+      "directorLengthLimit": "Length should be 1 to 10",
+      "drawerTitle": "Department Detail",
+      "insertDepartment": "Insert Department",
+      "name": "Name",
+      "nameLengthLimit": "Length should be 1 to 10",
+      "updateDepartment": "Update Department"
+    },
+    "drug": {
+      "batch": "Batch",
+      "batchLengthLimit": "Length should be 1 to 20",
+      "checkBatch": "Please input the batch",
+      "checkEXP": "Please input an expiration date",
+      "checkFactory": "Please input the factory",
+      "checkName": "Please input the drug name",
+      "checkPD": "Please input production date",
+      "checkPrice": "Please input the price",
+      "checkQuantity": "Please input the quantity",
+      "drawerTitle": "Drug Detail",
+      "exp": "EXP",
+      "factory": "Factory",
+      "factoryLengthLimit": "Length should be 1 to 25",
+      "factoryNotNum": "The factory can't be num",
+      "insertDrug": "Insert Drug",
+      "name": "Name",
+      "nameLengthLimit": "Length should be 1 to 20",
+      "nameNotNum": "The drug name can't be a num",
+      "pd": "PD",
+      "price": "price/￥",
+      "priceIsNum": "The price must be a num",
+      "priceSizeLimit": "The price can't be greater than 100 million",
+      "quantity": "Quantity",
+      "quantityIsNum": "The quantity must be a num",
+      "quantitySizeLimit": "The quantity can't be greater than 100 million",
+      "updateDrug": "Update Drug"
+    },
+    "feedback": {
+      "checkText": "Please input feedback text",
+      "checkTitle": "Please input the feedback title",
+      "drawerTitle": "Feedback Detail",
+      "insertFeedback": "Insert Feedback",
+      "text": "Text",
+      "textLengthLimit": "Length should be 1 to 800",
+      "textNotNum": "Feedback text can't be a num",
+      "textPlaceholder": "Please describe in detail the problem you want to feed back",
+      "title": "Title",
+      "titleLengthLimit": "Length should be 1 to 10",
+      "titlePlaceholder": "Please briefly describe the problem you want to feedback",
+      "updateFeedback": "Update Feedback"
+    },
+    "home": {
+      "calendarTitle": "Today",
+      "incomeTitle": "Income",
+      "none": "None",
+      "noticeTitle": "Latest Notices",
+      "outpatientTitle": "Outpatient"
+    },
+    "income": {
+      "checkDate": "Please input the date",
+      "checkTotal": "Please input the total",
+      "date": "Date",
+      "datePlaceholder": "Pick a Date",
+      "drawerTitle": "Income Detail",
+      "insertIncome": "Insert Income",
+      "total": "Total/￥",
+      "totalIsNum": "The total must be a num",
+      "totalSizeLimit": "The total can't be greater than 100 million",
+      "updateIncome": "Update Income"
+    },
+    "notice": {
+      "checkText": "Please input the notice text and sync content",
+      "checkTitle": "Please input the notice title",
+      "insertNotice": "Insert Notice",
+      "text": "Text",
+      "textLengthLimit": "Length should be 1 to 10000",
+      "title": "Title",
+      "titleLengthLimit": "Length should be 1 to 30",
+      "updateNotice": "Update Notice"
+    },
+    "noticeDetail": {
+      "author": "Author",
+      "date": "Date",
+      "title": "Notice detail"
+    },
+    "outpatient": {
+      "checkDate": "Please input the date",
+      "checkTotal": "Please input the total",
+      "date": "Date",
+      "datePlaceholder": "Pick a Date",
+      "drawerTitle": "Outpatient Detail",
+      "insertOutpatient": "Insert Outpatient",
+      "total": "Total",
+      "totalIsNum": "The total must be a num",
+      "totalSizeSmallerZero": "The total can't be smaller than 0",
+      "totalSizeLimit": "The total can't be greater than 100 million",
+      "updateOutpatient": "Update Outpatient",
+      "doctor": "Doctor",
+      "outpatient": "Outpatient",
+      "record": "Record"
+    },
+    "record": {
+      "checkDP": "Please select a department",
+      "checkDoctor": "Please input the doctor's name",
+      "checkIllness": "Please input the illness name",
+      "checkName": "Please input the patient's name",
+      "checkText": "Please input the record content",
+      "doctor": "Doctor",
+      "doctorLengthLimit": "Length should be 1 to 20",
+      "dp": "Department",
+      "dpPlaceholder": "Select",
+      "drawerTitle": "Record Detail",
+      "illness": "Illness",
+      "illnessLengthLimit": "Length should be 1 to 20",
+      "illnessNotNum": "Illness name can't be a num",
+      "insertRecord": "Insert Record",
+      "name": "Name",
+      "nameLengthLimit": "Length should be 1 to 20",
+      "nameNotNum": "The patient name can't be a num",
+      "text": "Text",
+      "textLengthLimit": "Length should be 1 to 800",
+      "textNotNum": "The record text can't be Num",
+      "updateRecord": "Update Record"
+    },
+    "user": {
+      "checkPass": "Confirm",
+      "drawerTitle": "User Detail",
+      "insertUser": "Insert User",
+      "pwd": "Password",
+      "rolePlaceholder": "Select",
+      "updateUser": "updateUser",
+      "username": "Username"
+    },
+    "userDetail": {
+      "email": "Email",
+      "female": "Female",
+      "gender": "Gender",
+      "male": "Male",
+      "name": "Name",
+      "phone": "Phone",
+      "role": "Role",
+      "save": "Save",
+      "username": "Username"
+    }
+  },
+  "notFound": {
+    "backIndex": "Back to home",
+    "text": "Those who fight monsters should be careful not to become monsters. When you gaze into the abyss, the abyss also gazes at you.",
+    "title": "404 Page not found"
+  },
+  "register": {
+    "checkPwd": "Confirm",
+    "goLogin": "Click here to Login",
+    "message": {
+      "failed": "Register failed",
+      "success": "Register successful, please login"
+    },
+    "pwd": "Password",
+    "title": "Register",
+    "username": "Username"
+  },
+  "search": {
+    "buttonText": "Search",
+    "placeholder": "Please input the keyword"
+  },
+  "table": {
+    "charge": {
+      "action": "Action",
+      "amount": "Amount/¥",
+      "date": "Date",
+      "name": "Payer",
+      "project": "Project",
+      "signature": "Payee"
+    },
+    "delete": "Delete",
+    "department": {
+      "action": "Action",
+      "date": "Date",
+      "director": "Director",
+      "name": "Name"
+    },
+    "drug": {
+      "action": "Action",
+      "batch": "Batch",
+      "exp": "EXP",
+      "name": "name",
+      "pd": "PD",
+      "price": "Price/￥",
+      "quantity": "Quantity"
+    },
+    "feedback": {
+      "action": "Action",
+      "date": "Date",
+      "title": "Title"
+    },
+    "income": {
+      "action": "Action",
+      "date": "Date",
+      "editor": "Editor",
+      "total": "Total/￥"
+    },
+    "notice": {
+      "action": "Action",
+      "author": "Author",
+      "date": "Date",
+      "title": "Title"
+    },
+    "outpatient": {
+      "action": "Action",
+      "date": "Date",
+      "editor": "Editor",
+      "total": "Total"
+    },
+    "record": {
+      "action": "Action",
+      "date": "Date",
+      "doctor": "Doctor",
+      "dp": "Department",
+      "illness": "Illness",
+      "name": "Name"
+    },
+    "update": "Update",
+    "user": {
+      "action": "Action",
+      "gender": "Gender",
+      "name": "Name",
+      "phone": "Phone",
+      "role": "Role",
+      "state": "state",
+      "username": "Username"
+    },
+    "view": "View"
+  },
+  "wangEditor": {
+    "clearContent": "Clear content",
+    "syncContent": "Sync content"
+  }
+}

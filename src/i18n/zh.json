@@ -1,0 +1,390 @@
+{
+  "aside": {
+    "collapse": {
+      "collapseBtnText": "折叠",
+      "desc": "用于折叠和展开侧边栏",
+      "expandBtnText": "展开",
+      "title": "侧边栏按钮"
+    },
+    "menu": {
+      "charge": "收费统计",
+      "department": "科室管理",
+      "drug": "药品管理",
+      "feedback": "问题反馈",
+      "home": "首页",
+      "income": "收入统计",
+      "notice": "公告管理",
+      "outpatient": "门诊量统计",
+      "record": "病历管理",
+      "user": "用户管理"
+    },
+    "message": {
+      "noAuth": "暂无权限，如仍需访问请联系管理员"
+    }
+  },
+  "driver": {
+    "closeBtnText": "关闭",
+    "doneBtnText": "完成",
+    "nextBtnText": "下一步",
+    "prevBtnText": "上一步"
+  },
+  "form": {
+    "banChinese": "密码中不能包含中文",
+    "cancel": "取消",
+    "checkEmail": "请输入正确的邮箱地址",
+    "checkGender": "性别只能为男或女",
+    "checkName": "请输入姓名",
+    "checkPhone": "请输入中国大陆的手机号码",
+    "checkRoleId": "请选择权限",
+    "checkUsername": "请输入用户名",
+    "donotMatch": "两次输入不一致",
+    "message": {
+      "actionFailed": "参数不匹配，操作失败",
+      "cancelButtonText": "取消",
+      "changePwdFailed": "密码修改失败",
+      "changePwdSuccess": "密码修改成功，请重新登录",
+      "changeUserStateFailed": "变更用户状态失败",
+      "changeUserStateSuccess": "变更用户状态成功",
+      "confirmButtonText": "确定",
+      "confirmText": "可能会丢失所有已填写的表单内容，确定要退出吗?",
+      "deleteConfirmText": "确定要删除吗？",
+      "deleteFailed": "删除失败",
+      "deleteSuccess": "删除成功",
+      "insertFailed": "新增失败",
+      "insertSuccess": "新增成功",
+      "updateFailed": "修改失败",
+      "updateSuccess": "修改成功",
+      "updateUserDetailFailed": "用户详情更新失败",
+      "updateUserDetailSuccess": "用户详情更新成功"
+    },
+    "nameLengthLimit": "长度应为0~10",
+    "pwdLengthLimit": "长度应为6~10",
+    "reset": "重置",
+    "submit": "提交",
+    "submitFailed": "提交失败",
+    "usernameHasUsed": "这个用户名已被使用",
+    "usernameLengthLimit": "长度应为1~10",
+    "validateCheckPass": "请再次输入密码",
+    "validatePass": "请输入密码"
+  },
+  "header": {
+    "fullscreen": {
+      "backIndex": "返回首页",
+      "desc": "从左到右依次是返回主页、退出全屏和全屏模式",
+      "exitFullscreenMode": "退出全屏",
+      "fullscreenMode": "全屏模式",
+      "title": "全屏按钮"
+    },
+    "guide": {
+      "desc": "这是一个简短的引导教程，请点击下一步",
+      "title": "引导按钮"
+    },
+    "logo": {
+      "title": "牙科诊所管理系统"
+    },
+    "routes": {
+      "back": "后退",
+      "desc": "类似于浏览器中的路由按钮，可以使页面后退和前进",
+      "forward": "前进",
+      "title": "路由按钮"
+    },
+    "userAvatar": {
+      "changePwd": "修改密码",
+      "logout": "退出登录",
+      "role": "权限",
+      "userDetail": "用户详情"
+    }
+  },
+  "login": {
+    "checkPwd": "确认密码",
+    "goRegister": "还没有账号？点此注册",
+    "message": {
+      "failed": "登录失败",
+      "success": "登录成功"
+    },
+    "pwd": "密码",
+    "title": "登录",
+    "username": "用户名"
+  },
+  "main": {
+    "changePwd": {
+      "banChinese": "密码中不能包含中文",
+      "checkPwd": "确认密码",
+      "checkPwdPlaceholder": "请再次输入修改后的密码",
+      "donotMatch": "两次输入不一致",
+      "nowPwd": "现在的密码",
+      "nowPwdPlaceholder": "请输入现在的密码",
+      "pwd": "修改后的密码",
+      "pwdLengthLimit": "长度应为6~10",
+      "pwdPlaceholder": "请输入修改后的密码",
+      "submitUpdate": "确认修改",
+      "validateCheckPass": "请再次输入密码",
+      "validatePass": "请输入密码"
+    },
+    "charge": {
+      "amount": "总额/￥",
+      "amountIsNum": "金额必须是数字",
+      "amountSizeLimit": "总额不能大于1亿",
+      "amountSizeSmallerZero": "总额不能小于0",
+      "charge_detail": {
+        "item": "条目",
+        "price": "单价",
+        "quantity": "数量"
+      },
+      "checkAmount": "请输入金额",
+      "checkDate": "请输入日期",
+      "checkName": "请输入交款者",
+      "checkProject": "请输入项目",
+      "checkSignature": "请输入收款者",
+      "date": "日期",
+      "datePlaceholder": "选择一个日期",
+      "drawerTitle": "收费记录详情",
+      "insertCharge": "新增收费记录",
+      "name": "交款者",
+      "nameLengthLimit": "长度应为1~10",
+      "project": "项目",
+      "projectLengthLimit": "长度应为1~20",
+      "signature": "收款者",
+      "signatureLengthLimit": "长度应为1~10",
+      "updateCharge": "修改收费记录"
+    },
+    "department": {
+      "checkDirector": "请输入科室主任姓名",
+      "checkName": "请输入科室名",
+      "director": "科室主任",
+      "directorLengthLimit": "长度应为1~10",
+      "drawerTitle": "科室详情",
+      "insertDepartment": "新增科室",
+      "name": "科室名",
+      "nameLengthLimit": "长度应为1~10",
+      "updateDepartment": "修改科室"
+    },
+    "drug": {
+      "batch": "批次",
+      "batchLengthLimit": "长度应为1~20",
+      "checkBatch": "请输入批次",
+      "checkEXP": "请输入过期日期",
+      "checkFactory": "请输入厂家",
+      "checkName": "请输入药品名",
+      "checkPD": "请输入生产日期",
+      "checkPrice": "请输入单价",
+      "checkQuantity": "请输入数量",
+      "drawerTitle": "药品详情",
+      "exp": "过期日期",
+      "factory": "厂家",
+      "factoryLengthLimit": "长度应为1~25",
+      "factoryNotNum": "厂家不能是数字",
+      "insertDrug": "新增药品",
+      "name": "药品名",
+      "nameLengthLimit": "长度应为1~20",
+      "nameNotNum": "药品名不能是数字",
+      "pd": "生产日期",
+      "price": "单价/￥",
+      "priceIsNum": "单价必须为数字",
+      "priceSizeLimit": "单价不能大于1亿",
+      "quantity": "数量",
+      "quantityIsNum": "数量必须是数字",
+      "quantitySizeLimit": "数量不能大于1亿",
+      "updateDrug": "修改药品"
+    },
+    "feedback": {
+      "checkText": "请输入反馈内容",
+      "checkTitle": "请输入反馈标题",
+      "drawerTitle": "反馈记录详情",
+      "insertFeedback": "新增反馈记录",
+      "text": "反馈内容",
+      "textLengthLimit": "长度应为1~800",
+      "textNotNum": "反馈内容不能是数字",
+      "textPlaceholder": "请详细描述您要反馈的问题",
+      "title": "反馈标题",
+      "titleLengthLimit": "长度应为1~10",
+      "titlePlaceholder": "请简略描述您要反馈的问题",
+      "updateFeedback": "修改反馈记录"
+    },
+    "home": {
+      "calendarTitle": "今日",
+      "incomeTitle": "收入统计",
+      "none": "暂无",
+      "noticeTitle": "最新公告",
+      "outpatientTitle": "门诊量统计"
+    },
+    "income": {
+      "checkDate": "请输入日期",
+      "checkTotal": "请输入总额",
+      "date": "日期",
+      "datePlaceholder": "选择一个日期",
+      "drawerTitle": "收入记录详情",
+      "insertIncome": "新增收入记录",
+      "total": "总额/￥",
+      "totalIsNum": "总额必须是数字",
+      "totalSizeLimit": "总额不能大于1亿",
+      "updateIncome": "修改收入记录"
+    },
+    "notice": {
+      "checkText": "请输入公告正文并同步内容",
+      "checkTitle": "请输入公告标题",
+      "insertNotice": "新增公告",
+      "text": "公告正文",
+      "textLengthLimit": "长度应为1~10000",
+      "title": "公告标题",
+      "titleLengthLimit": "长度应为1~30",
+      "updateNotice": "修改公告"
+    },
+    "noticeDetail": {
+      "author": "作者",
+      "date": "日期",
+      "title": "公告详情"
+    },
+    "outpatient": {
+      "checkDate": "请输入日期",
+      "checkTotal": "请输入总数",
+      "date": "日期",
+      "datePlaceholder": "请选择一个日期",
+      "drawerTitle": "门诊量记录详情",
+      "insertOutpatient": "新增门诊量记录",
+      "total": "总数",
+      "totalIsNum": "总数必须是数字",
+      "totalSizeSmallerZero": "总数不能小于0",
+      "totalSizeLimit": "总数不能大于1亿",
+      "updateOutpatient": "修改门诊量记录",
+      "doctor": "医生",
+      "outpatient": "门诊量",
+      "record": "记录"
+    },
+    "record": {
+      "checkDP": "请选择科别",
+      "checkDoctor": "请输入医生姓名",
+      "checkIllness": "请输入病名",
+      "checkName": "请输入病人姓名",
+      "checkText": "请输入病历内容",
+      "doctor": "医生姓名",
+      "doctorLengthLimit": "长度应为1~20",
+      "dp": "科别",
+      "dpPlaceholder": "请选择",
+      "drawerTitle": "病历详情",
+      "illness": "病名",
+      "illnessLengthLimit": "长度应为1~20",
+      "illnessNotNum": "病名不能是数字",
+      "insertRecord": "新增病历",
+      "name": "病人姓名",
+      "nameLengthLimit": "长度应为1~20",
+      "nameNotNum": "病人姓名不能是数字",
+      "text": "病历内容",
+      "textLengthLimit": "长度应为1~800",
+      "textNotNum": "病历内容不能是数字",
+      "updateRecord": "修改病历"
+    },
+    "user": {
+      "checkPass": "确认密码",
+      "drawerTitle": "用户详情",
+      "insertUser": "新增用户",
+      "pwd": "密码",
+      "rolePlaceholder": "请选择",
+      "updateUser": "修改用户",
+      "username": "用户名"
+    },
+    "userDetail": {
+      "email": "邮箱",
+      "female": "女",
+      "gender": "性别",
+      "male": "男",
+      "name": "姓名",
+      "phone": "手机号",
+      "role": "权限",
+      "save": "保存",
+      "username": "用户名"
+    }
+  },
+  "notFound": {
+    "backIndex": "返回首页",
+    "text": "与怪物战斗的人，应当小心自己不要成为怪物。当你凝视深渊时，深渊也在凝视你。",
+    "title": "404 找不到页面"
+  },
+  "register": {
+    "checkPwd": "确认密码",
+    "goLogin": "已有账号？点此登录",
+    "message": {
+      "failed": "注册失败",
+      "success": "注册成功，请登录"
+    },
+    "pwd": "密码",
+    "title": "注册",
+    "username": "用户名"
+  },
+  "search": {
+    "buttonText": "搜索",
+    "placeholder": "请输入关键字"
+  },
+  "table": {
+    "charge": {
+      "action": "操作",
+      "amount": "金额/￥",
+      "date": "日期",
+      "name": "交款者",
+      "project": "项目",
+      "signature": "收款者"
+    },
+    "delete": "删除",
+    "department": {
+      "action": "操作",
+      "date": "日期",
+      "director": "科室主任",
+      "name": "科室名"
+    },
+    "drug": {
+      "action": "操作",
+      "batch": "批次",
+      "exp": "过期日期",
+      "name": "药品名",
+      "pd": "生产日期",
+      "price": "单价/￥",
+      "quantity": "数量"
+    },
+    "feedback": {
+      "action": "操作",
+      "date": "日期",
+      "title": "标题"
+    },
+    "income": {
+      "action": "操作",
+      "date": "日期",
+      "editor": "编辑者",
+      "total": "总额/￥"
+    },
+    "notice": {
+      "action": "操作",
+      "author": "作者",
+      "date": "日期",
+      "title": "标题"
+    },
+    "outpatient": {
+      "action": "操作",
+      "date": "日期",
+      "editor": "编辑者",
+      "total": "总数"
+    },
+    "record": {
+      "action": "操作",
+      "date": "日期",
+      "doctor": "医生",
+      "dp": "科别",
+      "illness": "病名",
+      "name": "病人姓名"
+    },
+    "update": "修改",
+    "user": {
+      "action": "操作",
+      "gender": "性别",
+      "name": "姓名",
+      "phone": "手机号",
+      "role": "权限",
+      "state": "状态",
+      "username": "用户名"
+    },
+    "view": "查看"
+  },
+  "wangEditor": {
+    "clearContent": "清空内容",
+    "syncContent": "同步内容"
+  }
+}

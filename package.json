@@ -1,0 +1,53 @@
+{
+  "name": "dental-admin",
+  "version": "1.0.0",
+  "author": "Mkild",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ./src",
+    "prettier": "prettier --write ./src"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "axios": "^0.26.1",
+    "driver.js": "^0.9.8",
+    "element-plus": "2.0.2",
+    "good-storage": "^1.1.1",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.0.11",
+    "qs": "^6.10.3",
+    "sass": "^1.49.9",
+    "vue": "^3.2.31",
+    "vue-i18n": "^9.1.9",
+    "vue-router": "^4.0.13",
+    "vue3-lazy": "^1.0.0-alpha.1",
+    "wangeditor": "^4.7.12"
+  },
+  "devDependencies": {
+    "@types/good-storage": "^1.1.0",
+    "@types/lodash-es": "*",
+    "@types/qs": "^6.9.7",
+    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/parser": "^5.14.0",
+    "@vitejs/plugin-vue": "^2.2.4",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "postcss": "^8.4.8",
+    "postcss-preset-env": "^7.4.2",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.6.2",
+    "unplugin-auto-import": "^0.6.1",
+    "unplugin-vue-components": "^0.17.21",
+    "vite": "^2.8.6",
+    "vue-tsc": "^0.32.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
