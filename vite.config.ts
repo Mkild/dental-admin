@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import legacy from '@vitejs/plugin-legacy'
 // import ElementPlus from 'unplugin-element-plus/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
@@ -12,8 +13,20 @@ export default defineConfig({
     port: 3001, // 指定端口
     open: false, // 是否自动打开浏览器
   },
+  build: {
+    terserOptions: {
+      compress: {
+        drop_console: true, // 去除console
+        drop_debugger: true, // 去除debugger
+      },
+    },
+  },
   plugins: [
-    vue(),
+    vue(), // Vue3单文件组件支持
+    // 为打包后的文件提供传统浏览器兼容性支持
+    legacy({
+      targets: ['defaults', 'not IE 11'],
+    }),
     // ElementPlus手动import
     // 手动和自动不可同时使用，会冲突
     // ElementPlus(),
