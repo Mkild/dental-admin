@@ -15,7 +15,6 @@
     <img src="https://img.shields.io/badge/license-AGPL--3.0-green.svg" alt="license" />
 </p>
 
-
 > **Dental Admin 牙科诊所管理系统**
 >
 > 基于 Vue3、TypeScript、Vite 的牙科诊所管理系统 | Dental Admin based on Vue 3 + Typescript + Vite
@@ -25,6 +24,8 @@
 ## 简介
 
 一个平平无奇的 web 后台管理系统，简单、纯净，未使用任何管理端模板。
+
+前后端分离。
 
 基于 Token(JWT) 实现登录注册和权限认证。
 
