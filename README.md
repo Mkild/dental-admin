@@ -19,7 +19,7 @@
 >
 > 基于 Vue3、TypeScript、Vite 的牙科诊所管理系统 | Dental Admin based on Vue 3 + Typescript + Vite
 >
-> 同时使用了：路由 Vue Router，状态管理工具 Pinia，UI 组件库 Element Plus，CSS 预编译器 Sass
+> 同时使用了：路由 Vue Router，状态管理工具 Pinia，UI 组件库 Element Plus，CSS 预编译器 Sass...
 
 ## 简介
 
@@ -31,7 +31,7 @@
 
 包含以下模块：
 
-登录注册、公告管理、科室管理、药品管理、病历管理、收费统计、收入统计、用户管理、问题反馈，
+登录注册、公告管理、科室管理、药品管理、病历管理、收费统计、收入统计、门诊量统计、用户管理、问题反馈，
 
 以及查看和修改个人详情、修改密码、退出登录、中英切换等功能。
 
