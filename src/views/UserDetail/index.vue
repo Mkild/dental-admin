@@ -57,7 +57,7 @@
 <script lang="ts" setup>
   import { useUserStore } from '@/store'
   import { getUserDetail } from '@/api'
-  import { UserDetail, UserDetailRef } from '@/interface'
+  import type { UserDetail, UserDetailRef } from '@/interface'
   import type { ElForm } from 'element-plus'
   import { Ref } from 'vue'
   import { getUser } from '@/api'

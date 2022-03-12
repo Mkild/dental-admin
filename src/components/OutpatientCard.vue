@@ -11,7 +11,7 @@
 <script lang="ts">
   import { getOutpatientByDate } from '@/api'
   import { formatDate, formatTotal } from '@/utils'
-  import { Outpatient } from '@/interface'
+  import type { Outpatient } from '@/interface'
 
   export default defineComponent({
     name: 'OutpatientCard',

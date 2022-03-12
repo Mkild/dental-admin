@@ -84,7 +84,7 @@
   import { ElMessageBox } from 'element-plus'
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
-  import { Charge, ChargeDetail } from '@/interface'
+  import type { Charge, ChargeDetail } from '@/interface'
   import { useMainStore, useUserStore } from '@/store'
   import { isNum } from '@/utils'
 

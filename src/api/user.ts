@@ -1,5 +1,5 @@
 import { request, requestWithoutLoading } from '@/utils'
-import { Params } from '@/interface'
+import type { Params } from '@/interface'
 import qs from 'qs'
 
 // 注册

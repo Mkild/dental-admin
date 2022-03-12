@@ -52,7 +52,7 @@
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
   import { isNum } from '@/utils'
-  import { Drug } from '@/interface'
+  import type { Drug } from '@/interface'
 
   const mainStore = useMainStore()
   const { t } = useI18n()

@@ -13,7 +13,7 @@
           ></el-input>
         </el-col>
         <el-button @click="searchData" type="primary" :icon="Search">{{ t('search.buttonText') }}</el-button>
-        <el-button type="primary" @click="changeDialogVisible(null)">
+        <el-button type="primary" @click="changeDialogVisible(null)" :disabled="disabledLowerRole('director')">
           {{ t('main.outpatient.insertOutpatient') }}
         </el-button>
       </el-row>
@@ -28,17 +28,24 @@
           :width="item.width"
           :sortable="item.prop !== 'action' ? true : false"
         >
-          <template v-slot="{ row }" v-if="item.prop === 'date'">
-            {{ $utils.formatDate(row.createdAt, 'yyyy-MM-dd') }}
-          </template>
           <template #default="{ row }" v-if="item.prop === 'action'">
             <el-button type="info" size="small" @click="changeDrawerVisible(row)">
               {{ t('table.view') }}
             </el-button>
-            <el-button type="warning" size="small" @click="changeDialogVisible(row)">
+            <el-button
+              type="warning"
+              size="small"
+              @click="changeDialogVisible(row)"
+              :disabled="disabledLowerRole('director')"
+            >
               {{ t('table.update') }}
             </el-button>
-            <el-button type="danger" size="small" @click="submitDeleteForm('门诊量记录', row.id)">
+            <el-button
+              type="danger"
+              size="small"
+              @click="submitDeleteForm('门诊量记录', row.id)"
+              :disabled="disabledLowerRole('director')"
+            >
               {{ t('table.delete') }}
             </el-button>
           </template>
@@ -79,10 +86,10 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllOutpatient } from '@/api'
-  import { QueryForm, Outpatient } from '@/interface'
+  import type { QueryForm, Outpatient } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
-  import { watchNeedRefresh } from '@/hooks'
+  import { disabledLowerRole, watchNeedRefresh } from '@/hooks'
 
   const route = useRoute()
   const router = useRouter()

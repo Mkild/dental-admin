@@ -67,7 +67,7 @@
   import { ElMessageBox } from 'element-plus'
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
-  import { Outpatient, OutpatientDetail } from '@/interface'
+  import type { Outpatient, OutpatientDetail } from '@/interface'
   import { useMainStore, useUserStore } from '@/store'
   import { isNum } from '@/utils'
 

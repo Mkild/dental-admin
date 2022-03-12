@@ -1,4 +1,4 @@
-import { ComposerTranslation } from 'vue-i18n'
+import type { ComposerTranslation } from 'vue-i18n'
 
 export const options = (t: ComposerTranslation) => [
   {

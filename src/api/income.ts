@@ -1,5 +1,5 @@
 import { request } from '@/utils'
-import { Params } from '@/interface'
+import type { Params } from '@/interface'
 import qs from 'qs'
 
 // 获取收入记录

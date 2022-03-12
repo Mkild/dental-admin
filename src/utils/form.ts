@@ -4,7 +4,7 @@ import storage from 'good-storage'
 import type { ElForm } from 'element-plus'
 import message from '@/utils/message'
 import * as api from '@/api'
-import { Result } from '@/interface/result'
+import type { Result } from '@/interface/result'
 import i18n from '@/i18n'
 
 const mainStore = useMainStore()
@@ -113,6 +113,9 @@ export const submitInsertForm = (type: string, formEl: InstanceType<typeof ElFor
             )
             break
           case '收费记录':
+            formData.charge_details.forEach((el: any) => {
+              el.amount = el.price * el.quantity
+            })
             result = await api.insertCharge(
               formData.project,
               formData.name,

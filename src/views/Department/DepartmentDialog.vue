@@ -30,7 +30,7 @@
   import { ElMessageBox } from 'element-plus'
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
-  import { Department } from '@/interface'
+  import type { Department } from '@/interface'
 
   const mainStore = useMainStore()
   const { t } = useI18n()

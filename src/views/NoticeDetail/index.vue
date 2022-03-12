@@ -25,7 +25,7 @@
 
 <script lang="ts" setup>
   import { getNoticeContent } from '@/api'
-  import { NoticeContent } from '@/interface'
+  import type { NoticeContent } from '@/interface'
   import Title from '@/base/Title.vue'
   import { setTitle } from '@/hooks'
 
@@ -91,6 +91,10 @@
     }
 
     .text {
+      text-indent: 2em;
+      text-align: justify;
+      font-size: 18px;
+      line-height: 28px;
       margin-top: 40px;
       margin-bottom: 40px;
     }

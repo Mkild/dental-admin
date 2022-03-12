@@ -1,5 +1,5 @@
 import { request } from '@/utils'
-import { Params, ChargeDetail } from '@/interface'
+import type { Params, ChargeDetail } from '@/interface'
 import qs from 'qs'
 
 // 获取某日收费总金额

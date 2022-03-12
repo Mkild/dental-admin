@@ -1,5 +1,5 @@
 import { request } from '@/utils'
-import { Params, OutpatientDetail } from '@/interface'
+import type { Params, OutpatientDetail } from '@/interface'
 import qs from 'qs'
 
 // 获取门诊量记录

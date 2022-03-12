@@ -30,7 +30,7 @@
   import { ElMessageBox } from 'element-plus'
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
-  import { Notice } from '@/interface'
+  import type { Notice } from '@/interface'
   import { Ref } from 'vue'
 
   const mainStore = useMainStore()

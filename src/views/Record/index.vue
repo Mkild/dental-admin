@@ -80,7 +80,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllRecord } from '@/api'
-  import { QueryForm, Record } from '@/interface'
+  import type { QueryForm, Record } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

@@ -82,7 +82,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllFeedback } from '@/api'
-  import { QueryForm, Feedback } from '@/interface'
+  import type { QueryForm, Feedback } from '@/interface'
   import { isDef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { disabledLowerRole, watchNeedRefresh } from '@/hooks'

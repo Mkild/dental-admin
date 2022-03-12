@@ -36,7 +36,7 @@
 
 <script lang="ts">
   import { getAllNotice } from '@/api'
-  import { Notice } from '@/interface'
+  import type { Notice } from '@/interface'
   import { getPageOffset } from '@/utils'
 
   export default defineComponent({

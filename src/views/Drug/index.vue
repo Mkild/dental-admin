@@ -81,7 +81,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllDrug } from '@/api'
-  import { QueryForm, Drug } from '@/interface'
+  import type { QueryForm, Drug } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

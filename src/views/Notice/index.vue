@@ -75,7 +75,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllNotice, getNoticeContent } from '@/api'
-  import { QueryForm, Notice, NoticeContent } from '@/interface'
+  import type { QueryForm, Notice, NoticeContent } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

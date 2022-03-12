@@ -82,7 +82,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllUserDetail, changeUserState } from '@/api'
-  import { QueryForm, UserDetail, UserDetailRef, Result } from '@/interface'
+  import type { QueryForm, UserDetail, UserDetailRef, Result } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

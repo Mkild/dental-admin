@@ -77,7 +77,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllCharge } from '@/api'
-  import { QueryForm, Charge } from '@/interface'
+  import type { QueryForm, Charge } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

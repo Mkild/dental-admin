@@ -56,7 +56,7 @@
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertUserForm, submitUpdateUserForm } from '@/utils/form'
   import { useMainStore, useUserStore } from '@/store'
-  import { UserDetailRef, Role } from '@/interface'
+  import type { UserDetailRef, Role } from '@/interface'
   import { getUser, getAllRole } from '@/api'
   import { isTel, isEmail } from '@/utils'
 

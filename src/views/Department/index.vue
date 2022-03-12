@@ -79,7 +79,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllDepartment } from '@/api'
-  import { QueryForm, Department } from '@/interface'
+  import type { QueryForm, Department } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

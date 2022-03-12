@@ -19,7 +19,7 @@
     <div class="options">
       <Driver class="icon" />
       <Lang class="icon" />
-      <a href="https://github.com/Mkild" target="_blank">
+      <a href="https://github.com/Mkild/dental-admin" target="_blank">
         <Icon class="icon" size="21" type="github" />
       </a>
     </div>

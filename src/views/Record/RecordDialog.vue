@@ -50,7 +50,7 @@
   import { ElMessageBox } from 'element-plus'
   import type { ElForm } from 'element-plus'
   import { resetForm, submitInsertForm, submitUpdateForm } from '@/utils/form'
-  import { Record, Department } from '@/interface'
+  import type { Record, Department } from '@/interface'
   import { isNum } from '@/utils'
   import { useMainStore, useUserStore } from '@/store'
   import { getAllDepartment } from '@/api'

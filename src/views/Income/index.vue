@@ -75,7 +75,7 @@
   import { Search } from '@element-plus/icons-vue'
   import { options } from './option'
   import { getAllIncome } from '@/api'
-  import { QueryForm, Income } from '@/interface'
+  import type { QueryForm, Income } from '@/interface'
   import { isDef, isUndef, getPageOffset } from '@/utils'
   import { submitDeleteForm } from '@/utils/form'
   import { watchNeedRefresh } from '@/hooks'

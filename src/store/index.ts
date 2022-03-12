@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import { getUserByJwt } from '@/api'
-import { User, UserRole } from '@/interface'
+import type { User, UserRole } from '@/interface'
 import storage from 'good-storage'
 
 export const useMainStore = defineStore('main', {
