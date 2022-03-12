@@ -1,12 +1,7 @@
 # Dental Admin
 
-<p align="center" style="background-color:#515151;">
-  <svg role="img" style="width:300px; height:300px; fill:#3EAF7C" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M24,1.61H14.06L12,5.16,9.94,1.61H0L12,22.39ZM12,14.08,5.16,2.23H9.59L12,6.41l2.41-4.18h4.43Z"/>
-  </svg>
-   <span style="display:block; margin-top:10px;">
-      <img style="width:500px;" src="./src/assets/image/header-title.png" /> 
-   </span>
+<p align="center">
+    <img src="https://i.imgur.com/7BPk0Hl.png" alt="dental-admin" />
 </p>
 <p align="center">
     <a href="https://v3.vuejs.org/"><img src="https://img.shields.io/badge/vue-v3.2.31-blue.svg?color=4FC08D&logo=vuedotjs" alt="vue" /></a>
