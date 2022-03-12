@@ -11,7 +11,6 @@
     <a href="https://pinia.vuejs.org/"><img src="https://img.shields.io/badge/pinia-v2.0.11-yellow.svg?color=FFD859" alt="pinia" /></a>
     <a href="https://element-plus.gitee.io/en-US/"><img src="https://img.shields.io/badge/element--plus-v2.0.2-blue.svg?color=409EFF" alt="element-plus" /></a>
     <a href="http://en.sass.hk/"><img src="https://img.shields.io/badge/sass-v1.49.9-blue.svg?color=CC6699&logo=sass" alt="sass" /></a>
-    <a href="https://yarn.bootcss.com/"><img src="https://img.shields.io/badge/yarn-v1.22.17-blue.svg?color=2C8EBB&logo=yarn" alt="yarn" /></a>
     <img src="https://img.shields.io/badge/version-v1.0.0-yellow.svg" alt="version" />
     <img src="https://img.shields.io/badge/license-AGPL--3.0-green.svg" alt="license" />
 </p>
@@ -21,7 +20,7 @@
 >
 > 基于 Vue3、TypeScript、Vite 的牙科诊所管理系统 | Dental Admin based on Vue 3 + Typescript + Vite
 >
-> 同时使用了：路由 Vue Router，状态管理工具 Pinia，UI 组件库 Element Plus，CSS 预编译器 Sass，包管理器 Yarn
+> 同时使用了：路由 Vue Router，状态管理工具 Pinia，UI 组件库 Element Plus，CSS 预编译器 Sass
 
 ## 简介
 
@@ -39,9 +38,7 @@
 
 接口在我的另一个仓库：dental-admin-api
 
-> **接口指路：**  [dental-admin-api](https://github.com/Mkild/dental-admin) 
-
-
+> **接口指路：** [dental-admin-api](https://github.com/Mkild/dental-admin-api)
 
 ## 快速启动
 
@@ -66,6 +63,7 @@ npm run preview / yarn preview
 
 ## 使用到的插件/工具库
 
+- **yarn** [yarn](https://yarn.bootcss.com/) 依赖管理工具，比 npm 快一点
 - **@vitejs/plugin-vue** [@vitejs/plugin-vue](https://vitejs.dev/plugins/#vitejs-plugin-vue) 提供 Vue3 单文件组件支持
 - **@vitejs/plugin-legacy** [@vitejs/plugin-legacy](https://vitejs.cn/plugins/#vitejsplugin-legacy) 为打包后的文件提供传统浏览器兼容性支持
 - **eslint-plugin-vue** [eslint-plugin-vue](https://eslint.vuejs.org/user-guide/#faq) 为在.vue 文件和包含 vue 代码的 js 文件中使用 ESlint 提供支持
@@ -96,6 +94,7 @@ npm run preview / yarn preview
 | not support |                                                                                   last 2 versions                                                                                    |                                                                                         last 2 versions                                                                                         |                                                                                       last 2 versions                                                                                       |                                                                                       last 2 versions                                                                                       |
 
 ## 快照
+
 ![image.png](https://i.imgur.com/ni6Vu65.png)
 
 ![image.png](https://i.imgur.com/h0HxSia.png)
