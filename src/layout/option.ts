@@ -1,6 +1,4 @@
-import type { ComposerTranslation } from 'vue-i18n'
-
-export const options = (t: ComposerTranslation) => [
+export const options = (t: I18nt) => [
   {
     index: '/',
     label: t('aside.menu.home'),

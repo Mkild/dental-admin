@@ -1,6 +1,4 @@
-import { ComposerTranslation } from 'vue-i18n'
-
-export const steps = (t: ComposerTranslation) => [
+export const steps = (t: I18nt) => [
   {
     element: '#guide',
     popover: {

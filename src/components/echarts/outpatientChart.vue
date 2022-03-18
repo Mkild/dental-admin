@@ -76,7 +76,7 @@
             position: 'top',
           },
           itemStyle: {
-            barBorderRadius: 2,
+            borderRadius: 2,
             borderType: 'solid',
             borderColor: '#73c0de',
             shadowColor: '#5470c6',
