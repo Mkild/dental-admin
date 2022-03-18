@@ -64,22 +64,23 @@ npm run preview / yarn preview
 
 ## 使用到的插件/工具库
 
-- **yarn** [yarn](https://yarn.bootcss.com/) 依赖管理工具，比 npm 快一点
+- **yarn** [yarn](https://yarn.bootcss.com) 依赖管理工具，比 npm 快一点
 - **@vitejs/plugin-vue** [@vitejs/plugin-vue](https://vitejs.dev/plugins/#vitejs-plugin-vue) 提供 Vue3 单文件组件支持
 - **@vitejs/plugin-legacy** [@vitejs/plugin-legacy](https://vitejs.cn/plugins/#vitejsplugin-legacy) 为打包后的文件提供传统浏览器兼容性支持
 - **eslint-plugin-vue** [eslint-plugin-vue](https://eslint.vuejs.org/user-guide/#faq) 为在.vue 文件和包含 vue 代码的 js 文件中使用 ESlint 提供支持
 - **axios** [axios](https://github.com/axios/axios) 基于 Promise 的 HTTP 请求库
 - **qs** [qs](https://github.com/ljharb/qs) 查询参数序列化和解析库
-- **wangeditor** [wangeditor](https://www.wangeditor.com/doc/) 轻量级 web 富文本编辑器
+- **echarts** [echarts](https://echarts.apache.org) 一个基于 js 的开源可视化图表库
+- **wangeditor** [wangeditor](https://www.wangeditor.com/doc) 轻量级 web 富文本编辑器
 - **postcss-preset-env** 处理 css 浏览器兼容
 - **postcss-pxtorem** 将 px 换算成 rem，实现自适应
-- **vue-i18n** [vue-i18n](https://kazupon.github.io/vue-i18n/) 国际化，最新版本支持 Vue3 和 ts
+- **vue-i18n** [vue-i18n](https://kazupon.github.io/vue-i18n) 国际化，最新版本支持 Vue3 和 ts
 - **driver.js** [driver.js](https://github.com/kamranahmedse/driver.js) 用于分步引导，高亮提示
 - **good-storage** [driver.js](https://github.com/kamranahmedse/driver.js) 对原生 web storage 的封装，简单好用，ts 支持: `yarn add @types/good-storage -D`
-- **lodash-es** [lodash-es](https://www.lodashjs.com/) js 模块化工具库 lodash 的 es modules 版本，体积更小， ts 支持: `yarn add @types/lodash-es -D`
+- **lodash-es** [lodash-es](https://www.lodashjs.com) js 模块化工具库 lodash 的 es modules 版本，体积更小， ts 支持: `yarn add @types/lodash-es -D`
 - **unplugin-auto-import** 自动导入 Vue 中常用 api，也支持导入 element-plus 组件
 - **unplugin-vue-components** 自动导入 Vue 单文件组件和主流组件库的组件，性能存在问题，手动导入仍是最优选择
-- **animate.css** [animate.css](https://animate.style/) 简单好用的 css 动画库
+- **animate.css** [animate.css](https://animate.style) 简单好用的 css 动画库
 - **vue-tsc** 命令行检查
 
 ## 工程化
