@@ -206,7 +206,9 @@
       "incomeTitle": "收入统计",
       "none": "暂无",
       "noticeTitle": "最新公告",
-      "outpatientTitle": "门诊量统计"
+      "outpatientTitle": "门诊量统计",
+      "incomeChartTitle": "近期收入",
+      "outpatientChartTitle": "近期门诊量"
     },
     "income": {
       "checkDate": "请输入日期",

@@ -206,7 +206,9 @@
       "incomeTitle": "Income",
       "none": "None",
       "noticeTitle": "Latest Notices",
-      "outpatientTitle": "Outpatient"
+      "outpatientTitle": "Outpatient",
+      "incomeChartTitle": "Recent Incomes",
+      "outpatientChartTitle": "Recent Outpatients"
     },
     "income": {
       "checkDate": "Please input the date",

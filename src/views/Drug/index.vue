@@ -26,7 +26,7 @@
           :prop="item.prop"
           :label="item.label"
           :width="item.width"
-          :sortable="item.prop !== 'action' ? true : false"
+          :sortable="item.prop !== 'action'"
         >
           <template v-slot="{ row }" v-if="item.prop === 'pd'">
             {{ $utils.formatDate(row.pd, 'yyyy-MM-dd') }}

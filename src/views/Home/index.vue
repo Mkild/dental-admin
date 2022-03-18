@@ -7,6 +7,8 @@
       <OutpatientCard />
     </div>
     <NoticeCard />
+    <echartsIncomeChart />
+    <echartsOutpatientChart />
   </div>
 </template>
 

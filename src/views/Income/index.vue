@@ -26,10 +26,10 @@
           :prop="item.prop"
           :label="item.label"
           :width="item.width"
-          :sortable="item.prop !== 'action' ? true : false"
+          :sortable="item.prop !== 'action'"
         >
           <template v-slot="{ row }" v-if="item.prop === 'date'">
-            {{ $utils.formatDate(row.createdAt, 'yyyy-MM-dd') }}
+            {{ $utils.formatDate(row.date, 'yyyy-MM-dd') }}
           </template>
           <template #default="{ row }" v-if="item.prop === 'action'">
             <el-button type="info" size="small" @click="changeDrawerVisible(row)">

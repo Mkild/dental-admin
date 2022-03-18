@@ -7,6 +7,9 @@ declare module 'vue' {
     CalendarCard: typeof import('./../components/CalendarCard.vue')['default']
     Drawer: typeof import('./../base/Drawer.vue')['default']
     Driver: typeof import('./../components/Driver/index.vue')['default']
+    EchartsChargeChart: typeof import('./../components/echarts/ChargeChart.vue')['default']
+    EchartsIncomeChart: typeof import('./../components/echarts/IncomeChart.vue')['default']
+    EchartsOutpatientChart: typeof import('./../components/echarts/outpatientChart.vue')['default']
     ElAutocomplete: typeof import('element-plus/es')['ElAutocomplete']
     ElAvatar: typeof import('element-plus/es')['ElAvatar']
     ElButton: typeof import('element-plus/es')['ElButton']
@@ -56,4 +59,4 @@ declare module 'vue' {
   }
 }
 
-export { }
+export {}

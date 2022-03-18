@@ -100,6 +100,8 @@ npm run preview / yarn preview
 
 ![image.png](https://i.imgur.com/h0HxSia.png)
 
+![image.png](https://i.imgur.com/gQ1mIQb.png)
+
 ![image.png](https://i.imgur.com/hoSWRua.png)
 
 ![image.png](https://i.imgur.com/DWxyRDm.png)

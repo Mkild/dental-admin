@@ -26,7 +26,7 @@
           :prop="item.prop"
           :label="item.label"
           :width="item.width"
-          :sortable="item.prop !== 'action' ? true : false"
+          :sortable="item.prop !== 'action'"
         >
           <template #default="{ row }" v-if="item.prop === 'action'">
             <el-button type="info" size="small" @click="changeDrawerVisible(row)">
