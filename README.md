@@ -76,7 +76,7 @@ npm run preview / yarn preview
 - **postcss-pxtorem** 将 px 换算成 rem，实现自适应
 - **vue-i18n** [vue-i18n](https://kazupon.github.io/vue-i18n) 国际化，最新版本支持 Vue3 和 ts
 - **driver.js** [driver.js](https://github.com/kamranahmedse/driver.js) 用于分步引导，高亮提示
-- **good-storage** [driver.js](https://www.npmjs.com/package/good-storage) 对原生 web storage 的封装，简单好用，ts 支持: `yarn add @types/good-storage -D`
+- **good-storage** [good-storage](https://www.npmjs.com/package/good-storage) 对原生 web storage 的封装，简单好用，ts 支持: `yarn add @types/good-storage -D`
 - **lodash-es** [lodash-es](https://www.lodashjs.com) js 模块化工具库 lodash 的 es modules 版本，体积更小， ts 支持: `yarn add @types/lodash-es -D`
 - **unplugin-auto-import** 自动导入 Vue 中常用 api，也支持导入 element-plus 组件
 - **unplugin-vue-components** 自动导入 Vue 单文件组件和主流组件库的组件，性能存在问题，手动导入仍是最优选择
