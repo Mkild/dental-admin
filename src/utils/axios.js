@@ -55,13 +55,13 @@ function handleError(e) {
     switch (e.response.status) {
       case 401:
         userStore.logout()
-        window.location.replace('http://localhost:3001/#/login')
+        window.location.replace(`${window.location.origin}/login`)
         break
       case 403:
-        window.location.replace('http://localhost:3001')
+        window.location.replace(`${window.location.origin}`)
         break
       case 404:
-        window.location.replace('http://localhost:3001/#/404')
+        window.location.replace(`${window.location.origin}/404`)
         break
       default:
         break
