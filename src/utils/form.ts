@@ -306,7 +306,7 @@ export const submitDeleteForm = (type: string, id: number) => {
         return false
       }
     })
-    .catch((err) => {
+    .catch((err: unknown) => {
       console.log(err)
     })
 }
