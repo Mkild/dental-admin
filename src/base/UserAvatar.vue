@@ -41,16 +41,16 @@
           // 根据用户权限设置相应的头像
           switch (newValue) {
             case 'admin':
-              userStore.changeUserAvatar('https://tuchuangs.com/imgs/2022/02/a5f8587685e2f545.jpg')
+              userStore.changeUserAvatar('https://pic.imgdb.cn/item/626258c9239250f7c56ee494.jpg')
               break
             case 'director':
-              userStore.changeUserAvatar('https://tuchuangs.com/imgs/2022/02/65c6110e7c1dbc74.jpg')
+              userStore.changeUserAvatar('https://pic.imgdb.cn/item/626258ef239250f7c56f436f.jpg')
               break
             case 'doctor':
-              userStore.changeUserAvatar('https://tuchuangs.com/imgs/2022/02/7dbe9fae15f1b8f3.jpg')
+              userStore.changeUserAvatar('https://pic.imgdb.cn/item/62625902239250f7c56f76f2.jpg')
               break
             case 'visitor':
-              userStore.changeUserAvatar('https://tuchuangs.com/imgs/2022/02/596681e88766adfb.jpg')
+              userStore.changeUserAvatar('https://pic.imgdb.cn/item/62625914239250f7c56fa9db.jpg')
               break
           }
         },
